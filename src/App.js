@@ -6,7 +6,12 @@ function Header() {
 }
 
 function App() {
-  return < Header />;
+  return(
+    <div className='App'>
+      This is the starting code for "My first component" in visual studio code.
+      < Header />;
+    </div>
+  );
 }
 
 export default App;
