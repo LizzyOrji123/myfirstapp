@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Heading from './heading.js'
 
 function Header() {
   return <h1>This is an h1 heading</h1>;
@@ -8,10 +9,13 @@ function Header() {
 function App() {
   return(
     <div className='App'>
-      This is the starting code for "My first component" in visual studio code.
       < Header />;
+      <div>
+        <Heading firstName = 'Bob'/>
+        <Heading firstName = 'Any other name'/>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
